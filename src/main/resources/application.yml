@@ -5,6 +5,13 @@ spring:
   application:
     name: openapi-example
   
+  # MariaDB 설정
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/netis
+    username: root
+    password: ntflow
+  
   # OpenAPI 설정
   doc:
     api-docs:
